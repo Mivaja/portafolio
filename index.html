@@ -1,4 +1,13 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>Portafolio Social Media</title>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Portafolio de Miriam Vargas: marketing digital, estrategia de contenido y comunicación audiovisual.">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Portafolio Social Media</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" data-fonts href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap">
 <style id="theme">
@@ -310,6 +319,8 @@ p{margin:0}
 
 <script id="main">
 (function(){
+const EXT={"78ca7a2c0d3cbbd4fe4dc44f2c3d72c3":"svg","1f0a29ecd48090885356978e67fefb3a":"webp","a82cc801f30862a1559fe4dbfc0fe385":"webp","7eaf11ad85a29c9b951cd19b3587bc5c":"webp","71ba8e4959322b6ed3693cb5351890d6":"webp","6a4297332bec74996a4ee0730e51beba":"webp","860cd14db470b1b333a1bcb56d93b49a":"webp","05a835e01aef88f8dc272dd3bcfe3ca4":"webp","e0abc2cb071a693d8e7bdbf9d11c7143":"png","71520993855766a74c3b91a4246ab854":"png","94e6e4fafeb33dfc579addb811e495ea":"png","cee237f63a0185d0299ada48a0d5bf37":"png","3f241139f4e2b3830323129956654da0":"mp4","aebb171b80508fd74e0753a44d4c0e77":"mp4","df46afdb488ab81c46eb2065b17cd38b":"mp4","1a342008d68c1be7d2c41cfaccc36060":"mp4","f17e4d0c8de4787686120c2250bff1f5":"mp4","33f5cc3b414fe5431d3caa32b65dc4ec":"webp","e0a6d7486cdeccc3f22faa53244687c7":"webp","6d11bc0b649dcac53bbd533c087f39d4":"png","e73993980cb71cca62422950424eb818":"png","bd28d055298e61a37c62577a1f0b9879":"webp","51b4801ebf943aaa16c0679da37c79af":"webp","132b1a36f6bb0295d79c5ab8a0984dd2":"webp","ce329c363533175d6cf0c129e6a7b718":"webp","32b4fc9fb89e1f1312523f2c0350a93d":"webp","40c17f9d6046742a4c6d0071853b71b8":"webp","2da0d8a766f11bbb6194c21441d0d475":"webp","0f93f94951776d515dab3f9f80a1a3f3":"mp4","63d1c1a61f3d9824112711909efe88ef":"mp4","3d5e583a90ec921d4f1e8445a45321b7":"mp4","2d661a05f75e4322bbe810ec3e0ad84a":"mp4","fc829d30a67b618bc6a79787653064d0":"mp4","31d8bdb61e661e133e332035867fb8ea":"png","c940f148a3ce6de1cfe1df17b3c4234b":"png","1ea8e92345e095cc2e0077faeb4c5f4a":"png","c92081e24267bdaab1653157458d6f3f":"png","a80f73eeda7960fed7d391a19237b64b":"png","7f3d832c86a6b3455f2313f3c74a876b":"webp","16bf687065328fa4159b55f957c64d88":"webp","925d2a2ea19ae5d5ddd27e6a3ac5b33f":"webp","74ecbee1b21941e20c438ea409eaf1ec":"webp","49d5a8ad98a290904034ff5362c64d93":"webp","009c949edf6925388070a83a4dbbfbf9":"webp","38ae39fc7d99954c15e0d47315830588":"webp","8fb2a05290663316affd1dbb2697d3c9":"mp4","1a963733e8903ce2f491f21764cf6c0c":"mp4","f569d4b7711bcf985683284cf6b74229":"png","568d3ce9eff0b0d6dd635e8b22f171d9":"png","9a7911f445ed65361b43757372cb98f5":"png","dfbd78ff795dadabad682aa37af8b68b":"png","6dd52b81c6e1b0af10832ca5db333718":"mp4","ab651fadd6e5954187c8a962ae219989":"png","704813a731f776210e265418b7a485c6":"png","937b2f3800e42d6a97049c52275651c2":"webp","60daadcc8190dcd750f5a6a9078ae3b9":"webp","fef65f99597af6889d3a27bb4ac505c7":"webp","f97944b3334e18b588d179c40698c79a":"webp","7fe1c1ddd8038f0efb7bb301305fd38a":"webp","efdd254eb069e7c84190f01912983d23":"png","318dbbe41b41d98c3192a0e3de84ca7e":"png","b2378ad432ec7dd74a9a6848a46136ab":"png","fa11c4111ea37ac69f38aa2e9e40312d":"webp"};const B=id=>"assets/"+id+(EXT[id]?"."+EXT[id]:"");
+
 const app=document.getElementById('app');
 let S=JSON.parse(document.getElementById('data').textContent);
 let editing=false,art=null,assets=null,canEdit=false,busy=false,msg='';
@@ -333,7 +344,7 @@ const add=(p,label)=>`<div class="ctl addrow"><button class="btn" data-add="${p}
 const initials=s=>String(s||'').split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join('').toUpperCase()||'✱';
 function img(p,fallback,alt){
   const id=get(p);
-  const inner=id?`<img src="/_blob/${esc(id)}" alt="${esc(alt||'')}">`:`<div class="ph">${esc(fallback)}</div>`;
+  const inner=id?`<img src="${B(id)}" alt="${esc(alt||'')}">`:`<div class="ph">${esc(fallback)}</div>`;
   return inner+`<div class="ctl imgctl"><button class="btn light" data-up="${p}">${id?'Cambiar':'Subir'} foto</button>${id?`<button class="btn" data-clear="${p}">Quitar</button>`:''}</div>`;
 }
 function tab(key,i){return `<div class="tabrow"><div class="tab">${E('sec.'+key)}_${pad(i)}</div></div>`}
@@ -421,17 +432,17 @@ ${s.cases.map((c,ci)=>{const P='cases.'+ci;return `
       <div class="gallery">${c.gal.map((g,gi)=>!g&&!ph?'':`
         <div class="slot${g?' has':''}">
           ${del(P+'.gal.'+gi)}
-          ${g?`<img src="/_blob/${esc(g)}" alt="Pieza ${gi+1} de ${esc(c.name)}" loading="lazy">`:`<div class="ph2"><b>Imagen ${gi+1}</b><span>Post 4:5</span></div>`}
+          ${g?`<img src="${B(g)}" alt="Pieza ${gi+1} de ${esc(c.name)}" loading="lazy">`:`<div class="ph2"><b>Imagen ${gi+1}</b><span>Post 4:5</span></div>`}
           <div class="ctl imgctl"><button class="btn light" data-up="${P}.gal.${gi}">${g?'Cambiar':'Subir'}</button>${g?`<button class="btn" data-clear="${P}.gal.${gi}">Quitar</button>`:''}</div>
         </div>`).join('')}</div>
       ${showV?`<div class="vcol">${[0,1].map(vi=>{const v=(c.videos||[])[vi];return `
         <div class="vslot${v?' has':''}">
-          ${v?`<video src="/_blob/${esc(v)}" muted loop playsinline preload="metadata" aria-label="Video ${vi+1} de ${esc(c.name)}"></video><button class="snd" data-snd>Activar sonido</button>`:`<div class="ph2"><b>Video ${vi+1}</b><span>Reel 9:16</span></div>`}
+          ${v?`<video src="${B(v)}" muted loop playsinline preload="metadata" aria-label="Video ${vi+1} de ${esc(c.name)}"></video><button class="snd" data-snd>Activar sonido</button>`:`<div class="ph2"><b>Video ${vi+1}</b><span>Reel 9:16</span></div>`}
           <div class="ctl imgctl"><button class="btn light" data-up="${P}.videos.${vi}">${v?'Cambiar':'Subir'} video</button></div>
         </div>`}).join('')}</div>`:''}
       ${showF?`<div class="phone big">
         <div class="screen">
-          ${c.feed?`<img src="/_blob/${esc(c.feed)}" alt="Feed de Instagram de ${esc(c.name)}">`:`<div class="ph2"><b>Captura del feed</b><span>Pantalla de Instagram</span></div>`}
+          ${c.feed?`<img src="${B(c.feed)}" alt="Feed de Instagram de ${esc(c.name)}">`:`<div class="ph2"><b>Captura del feed</b><span>Pantalla de Instagram</span></div>`}
           <div class="island"></div>
         </div>
         <div class="ctl imgctl"><button class="btn light" data-up="${P}.feed">${c.feed?'Cambiar':'Subir'} captura</button></div>
@@ -443,7 +454,7 @@ ${s.cases.map((c,ci)=>{const P='cases.'+ci;return `
         <div class="phone">
           ${del(P+'.videos.'+vi)}
           <div class="screen">
-            ${v?`<video src="/_blob/${esc(v)}" muted loop playsinline preload="metadata" aria-label="Video ${vi+1} de ${esc(c.name)}"></video><button class="snd" data-snd>Activar sonido</button>`:`<div class="ph2"><b>Video ${vi+1}</b><span>Reel 9:16</span></div>`}
+            ${v?`<video src="${B(v)}" muted loop playsinline preload="metadata" aria-label="Video ${vi+1} de ${esc(c.name)}"></video><button class="snd" data-snd>Activar sonido</button>`:`<div class="ph2"><b>Video ${vi+1}</b><span>Reel 9:16</span></div>`}
             <div class="island"></div>
           </div>
           <div class="ctl imgctl"><button class="btn light" data-up="${P}.videos.${vi}">${v?'Cambiar':'Subir'} video</button></div>
@@ -454,7 +465,7 @@ ${s.cases.map((c,ci)=>{const P='cases.'+ci;return `
       <div class="viral">
         <div class="phone vphone">
           <div class="screen">
-            ${V.video?`<video src="/_blob/${esc(V.video)}" muted loop playsinline preload="metadata" aria-label="Reel viral de ${esc(c.name)}"></video><button class="snd" data-snd>Activar sonido</button>`:V.cover?`<img src="/_blob/${esc(V.cover)}" alt="Portada del reel viral">`:`<div class="ph2"><b>Reel viral</b><span>Sube el video o su portada</span></div>`}
+            ${V.video?`<video src="${B(V.video)}" muted loop playsinline preload="metadata" aria-label="Reel viral de ${esc(c.name)}"></video><button class="snd" data-snd>Activar sonido</button>`:V.cover?`<img src="${B(V.cover)}" alt="Portada del reel viral">`:`<div class="ph2"><b>Reel viral</b><span>Sube el video o su portada</span></div>`}
             <div class="island"></div>
             <span class="rv-views">${ic('<path d="M8 5v14l11-7z" fill="currentColor"/>')}${esc(V.stats[0].n)}</span>
             <div class="rv-side">
@@ -470,7 +481,7 @@ ${s.cases.map((c,ci)=>{const P='cases.'+ci;return `
           ${E(VP+'.title','h3','web-title')}
           ${E(VP+'.text','p','pre')}
           <div class="vstats">${V.stats.map((_,si)=>`<div class="vstat">${E(VP+'.stats.'+si+'.n','b')}${E(VP+'.stats.'+si+'.l','span')}</div>`).join('')}</div>
-          ${V.proof||editing?`<figure class="vproof">${V.proof?`<div class="vcrop"><img src="/_blob/${esc(V.proof)}" alt="Captura del reel en Instagram con sus comentarios y me gusta" loading="lazy"></div>`:`<div class="ph2"><b>Captura del reel</b><span>Con comentarios y me gusta</span></div>`}<figcaption>${E(VP+'.proofCap')}</figcaption><div class="ctl imgctl"><button class="btn light" data-up="${VP}.proof">${V.proof?'Cambiar':'Subir'} captura</button></div></figure>`:''}
+          ${V.proof||editing?`<figure class="vproof">${V.proof?`<div class="vcrop"><img src="${B(V.proof)}" alt="Captura del reel en Instagram con sus comentarios y me gusta" loading="lazy"></div>`:`<div class="ph2"><b>Captura del reel</b><span>Con comentarios y me gusta</span></div>`}<figcaption>${E(VP+'.proofCap')}</figcaption><div class="ctl imgctl"><button class="btn light" data-up="${VP}.proof">${V.proof?'Cambiar':'Subir'} captura</button></div></figure>`:''}
           <div class="cmts">${V.comments.map((cm,ci2)=>`<div class="cmt"><span class="av">${esc((cm.u||'?').replace('@','').charAt(0).toUpperCase())}</span><div>${E(VP+'.comments.'+ci2+'.u','b')}${E(VP+'.comments.'+ci2+'.t','p')}</div></div>`).join('')}</div>
           <div class="ctl addrow"><button class="btn" data-add="${VP}.comments">+ Comentario</button></div>
           ${editing?`<div class="web-link">Enlace: ${E(VP+'.url')}</div>`:`<a class="web-link" href="${esc(V.url)}" target="_blank" rel="noopener">Ver el reel en Instagram ↗</a>`}
@@ -487,7 +498,7 @@ ${s.cases.map((c,ci)=>{const P='cases.'+ci;return `
           ${editing?`<div class="web-link">Enlace: ${E(WP+'.url')}</div>`:`<a class="web-link" href="${esc(W.url)}" target="_blank" rel="noopener">Visitar ${esc(W.title)} ↗</a>`}
         </div>
         <div class="laptop">
-          <div class="lap-lid"><div class="lap-screen">${W.shot?`<img src="/_blob/${esc(W.shot)}" alt="Página de inicio de ${esc(W.title)}">`:`<div class="ph2"><b>Captura de la web</b><span>Página completa</span></div>`}</div></div>
+          <div class="lap-lid"><div class="lap-screen">${W.shot?`<img src="${B(W.shot)}" alt="Página de inicio de ${esc(W.title)}">`:`<div class="ph2"><b>Captura de la web</b><span>Página completa</span></div>`}</div></div>
           <div class="lap-base"></div>
           <div class="ctl imgctl"><button class="btn light" data-up="${WP}.shot">${W.shot?'Cambiar':'Subir'} captura</button></div>
         </div>
@@ -498,7 +509,7 @@ ${s.cases.map((c,ci)=>{const P='cases.'+ci;return `
         <div class="bwins" style="--n:${Math.min(3,g.pages.length)}">${g.pages.map((pg,pi)=>`
           <figure class="bwin">
             <div class="bbar"><i></i><i></i><i></i><span>${esc(pg.u.replace(/^https?:\/\//,''))}</span></div>
-            ${editing?`<div class="bshot" style="background-image:url(/_blob/${esc(pg.img)})"></div>`:`<a class="bshot" href="${esc(pg.u)}" target="_blank" rel="noopener" style="background-image:url(/_blob/${esc(pg.img)})" aria-label="Abrir ${esc(pg.n)}"></a>`}
+            ${editing?`<div class="bshot" style="background-image:url(${B(pg.img)})"></div>`:`<a class="bshot" href="${esc(pg.u)}" target="_blank" rel="noopener" style="background-image:url(${B(pg.img)})" aria-label="Abrir ${esc(pg.n)}"></a>`}
             <figcaption>${E(GP+'.pages.'+pi+'.n')}</figcaption>
           </figure>`).join('')}</div>
       </div>`}).join('')}`})():''}
@@ -508,7 +519,7 @@ ${s.cases.map((c,ci)=>{const P='cases.'+ci;return `
         <div>${E(TP+'.title','h3','web-title')}${E(TP+'.text','p','pre')}</div>
         ${editing?`<div class="web-link">Enlace: ${E(TP+'.url')}</div>`:`<a class="web-link" href="${esc(T.url)}" target="_blank" rel="noopener">Ver todos los talks ↗</a>`}
       </div>
-      ${(()=>{const tile=(p,cls,alt,ph)=>{const id=get(p);return `<div class="ttile ${cls}">${id?`<img src="/_blob/${esc(id)}" alt="${esc(alt)}" loading="lazy">`:`<div class="ph2"><b>${ph}</b></div>`}<div class="ctl imgctl"><button class="btn light" data-up="${p}">${id?'Cambiar':'Subir'}</button></div></div>`};return `
+      ${(()=>{const tile=(p,cls,alt,ph)=>{const id=get(p);return `<div class="ttile ${cls}">${id?`<img src="${B(id)}" alt="${esc(alt)}" loading="lazy">`:`<div class="ph2"><b>${ph}</b></div>`}<div class="ctl imgctl"><button class="btn light" data-up="${p}">${id?'Cambiar':'Subir'}</button></div></div>`};return `
       <div class="tshow">
         ${tile(TP+'.mock','tmock','Mockup de un video de GrowBy Talks en YouTube','Mockup')}
         <div class="tright">
@@ -547,7 +558,7 @@ ${s.closing?`<footer class="closing wrap" id="cierre">
   app.querySelectorAll('img[data-tint]').forEach(el=>{
     tint(el.dataset.tint,el.dataset.mode)
       .then(u=>{el.src=u;el.classList.add('ok')})
-      .catch(()=>{el.src='/_blob/'+el.dataset.tint;el.classList.add('ok')});
+      .catch(()=>{el.src=B(el.dataset.tint);el.classList.add('ok')});
   });
 }
 
@@ -584,7 +595,7 @@ function tint(id,mode){
       c2.getContext('2d').drawImage(cv,x0,y0,bw,bh,0,0,bw,bh);
       res(c2.toDataURL());
     }catch(e){rej(e)}};
-    im.onerror=rej;im.src='/_blob/'+id;
+    im.onerror=rej;im.src=B(id);
   });
   tinted.set(key,p);return p;
 }
@@ -699,4 +710,5 @@ render();
 })();
 </script>
 
-</body></html>
+</body>
+</html>
